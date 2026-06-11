@@ -1,0 +1,22 @@
+{
+  "name": "@nevescloud/chat-compat",
+  "version": "0.1.0",
+  "description": "Make Codex (chatgpt.com) & Gemini (Code Assist) speak OpenAI Chat Completions — pure, runtime-agnostic (CJS) translation usable in Node and Cloudflare Workers.",
+  "keywords": ["openai", "chat-completions", "codex", "gemini", "code-assist", "proxy", "cloudflare-workers"],
+  "main": "index.js",
+  "license": "MIT",
+  "author": "Jonas Neves",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nevescloud/chat-compat.git"
+  },
+  "homepage": "https://github.com/nevescloud/chat-compat#readme",
+  "bugs": "https://github.com/nevescloud/chat-compat/issues",
+  "files": ["index.js", "openai.js", "gemini.js", "sse.js"],
+  "scripts": {
+    "test": "node --test"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
