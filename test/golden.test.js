@@ -1,6 +1,6 @@
 'use strict';
-// Golden tests — lock the EXACT output of the canonical transforms so the
-// ai-bridge + proxy.neevs.io migrations are trustworthy without live traffic.
+// Golden tests — lock the EXACT output of the transforms so downstream
+// consumers can adopt them without re-verifying against live traffic.
 const { test } = require('node:test');
 const assert = require('node:assert/strict');
 const { openai, gemini, drainSSE } = require('..');
