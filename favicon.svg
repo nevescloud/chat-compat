@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Two opposed arrows: the package translates Codex Responses and Gemini Code Assist to and from Chat Completions. -->
+  <rect x="1" y="1" width="126" height="126" rx="28" fill="#23260f"/>
+  <g fill="#f2c14e"><rect x="20" y="34" width="62" height="15" rx="4"/><path d="M76 20 L108 41.5 L76 63 Z"/></g>
+  <g fill="#7fd1d6"><rect x="46" y="79" width="62" height="15" rx="4"/><path d="M52 65 L20 86.5 L52 108 Z"/></g>
+</svg>
